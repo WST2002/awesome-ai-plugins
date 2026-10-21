@@ -13690,6 +13690,21 @@
       "repo": "RTL_OpenCode",
       "url": "https://github.com/programmer-1998/RTL_OpenCode",
       "installation_url": "https://github.com/programmer-1998/RTL_OpenCode#readme"
+    },
+    {
+      "name": "proof-of-done",
+      "displayName": "proof-of-done",
+      "description": "Claude Code plugin that blocks the agent from finishing after code changes until tests, build or lint pass after the last edit, rejecting hidden exit codes, runs that executed 0 tests and flaky pass-after-fail reruns (`/plugin install proof-of-done@claude-code-skills`)",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "owner": "WST2002",
+      "repo": "claude-code-skills",
+      "url": "https://github.com/WST2002/claude-code-skills",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "install_url": "https://raw.githubusercontent.com/WST2002/claude-code-skills/HEAD/plugins/proof-of-done/.claude-plugin/plugin.json"
     }
   ]
 }
